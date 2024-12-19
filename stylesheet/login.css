@@ -209,6 +209,7 @@ a {
     .container {
         width: 80%;
         padding: 15px;
+        align-items: center;
     }
     .row {
         width: 100%; /* Ensures row also stretches fully */
@@ -223,8 +224,12 @@ a {
     #register, #loginbtn {
         font-size: 12px;
     }
+     #logingtext{
+        font-size: 30px;
+        font-weight: 600;
+    }
 
-    p, h3, small, #logintext {
+     h3, small {
         font-size: 12px;
     }
 
